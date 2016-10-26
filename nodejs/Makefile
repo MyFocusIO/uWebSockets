@@ -6,6 +6,7 @@ default:
 	NODE=targets/node-v4.4.3 ABI=46 make `(uname -s)`
 	NODE=targets/node-v5.11.0 ABI=47 make `(uname -s)`
 	NODE=targets/node-v6.0.0 ABI=48 make `(uname -s)`
+	NODE=targets/node-v7.0.0 ABI=51 make `(uname -s)`
 	cp ../README.md dist/README.md
 	cp ../LICENSE dist/LICENSE
 	cp -r ../src dist/
